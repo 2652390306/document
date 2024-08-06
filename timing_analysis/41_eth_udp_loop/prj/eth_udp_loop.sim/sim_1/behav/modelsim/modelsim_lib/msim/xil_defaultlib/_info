@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/prj/eth_udp_loop.sim/sim_1/behav/modelsim
+T_opt
+!s110 1688520115
+VmAZm>SHMU_Mb0RJkeI?OK3
+Z1 04 6 4 work tb_udp fast 0
+Z2 04 4 4 work glbl fast 0
+=1-d8bbc14fe465-64a4c5b0-364-6aac
+Z3 o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;10.5;63
+R0
+T_opt1
+!s110 1688630513
+VeRhFjF[G5:6B_bEKTaB7H0
+R1
+R2
+=1-d8bbc14fe465-64a674f0-36c-b7c8
+R3
+R4
+n@_opt1
+R5
+R0
+T_opt2
+!s110 1688979707
+VRnj3OkH>S1RfJ>D8RmoD31
+R1
+R2
+=1-d8bbc14fe465-64abc8f9-3a8-49ec
+R3
+R4
+n@_opt2
+R5
+vcrc32_d8
+!s10a 1686623416
+Z6 !s110 1688520107
+!i10b 1
+!s100 eKl@P20NPZeJY^FNi:j=Z1
+IOO4ReLf6ZnVinL_2GWMl`2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1686623416
+8../../../../../rtl/arp/crc32_d8.v
+F../../../../../rtl/arp/crc32_d8.v
+L0 22
+Z8 OL;L;10.5;63
+r1
+!s85 0
+31
+Z9 !s108 1688520107.000000
+Z10 !s107 ../../../../../sim/tb/tb_udp.v|../../../../../rtl/udp/udp_tx.v|../../../../../rtl/udp/udp_rx.v|../../../../../rtl/udp/udp.v|../../../../../rtl/arp/crc32_d8.v|
+Z11 !s90 -incr|-work|xil_defaultlib|../../../../../rtl/arp/crc32_d8.v|../../../../../rtl/udp/udp.v|../../../../../rtl/udp/udp_rx.v|../../../../../rtl/udp/udp_tx.v|../../../../../sim/tb/tb_udp.v|
+!i113 0
+Z12 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vglbl
+Z13 !s110 1688979701
+!i10b 1
+!s100 aGX4R92RO3^bD43HL2j:J2
+Ii@2]DfVnUU[WE=M5a<e[a3
+R7
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+L0 6
+R8
+r1
+!s85 0
+31
+Z14 !s108 1688979701.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R12
+R4
+vtb_udp
+!s10a 1688642148
+R6
+!i10b 1
+!s100 =`52dbbNDY3iXE<=WR:O71
+I?XOjcDQE3BOZ?k^OM3<b:2
+R7
+R0
+w1688364227
+8../../../../../sim/tb/tb_udp.v
+F../../../../../sim/tb/tb_udp.v
+L0 25
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R4
+vudp
+!s10a 1688087923
+Z15 !s110 1688630508
+!i10b 1
+!s100 lFf1l8M:0QMLJPd:BA^UJ3
+Ili7RVNjm^z`d?TK8X3eUL2
+R7
+R0
+w1688087923
+8../../../../../rtl/udp/udp.v
+F../../../../../rtl/udp/udp.v
+Z16 L0 23
+R8
+r1
+!s85 0
+31
+Z17 !s108 1688630508.000000
+R10
+R11
+!i113 0
+R12
+R4
+vudp_rx
+!s10a 1688630448
+R15
+!i10b 1
+!s100 0zzBM_L8RziZAOL^GTE2b1
+IdSo;TALO0lePH[;eab^Q73
+R7
+R0
+w1688630448
+8../../../../../rtl/udp/udp_rx.v
+F../../../../../rtl/udp/udp_rx.v
+R16
+R8
+r1
+!s85 0
+31
+R17
+R10
+R11
+!i113 0
+R12
+R4
+vudp_tx
+R13
+!i10b 1
+!s100 Vj3Nm?zgSFJI?SKcYGa@d3
+INHcdDUF[nCQPWfXz@NL><1
+R7
+R0
+w1688711323
+8../../../../../rtl/udp/udp_tx.v
+F../../../../../rtl/udp/udp_tx.v
+R16
+R8
+r1
+!s85 0
+31
+R14
+R10
+R11
+!i113 0
+R12
+R4

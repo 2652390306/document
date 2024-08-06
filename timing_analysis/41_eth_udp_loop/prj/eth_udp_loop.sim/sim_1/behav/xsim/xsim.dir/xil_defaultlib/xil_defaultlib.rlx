@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/prj/eth_udp_loop.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/arp/crc32_d8.v,1686623416,verilog,,C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp.v,,crc32_d8,,,,,,,,
+C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp.v,1688087923,verilog,,C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_rx.v,,udp,,,,,,,,
+C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_rx.v,1688460609,verilog,,C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_tx.v,,udp_rx,,,,,,,,
+C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_tx.v,1688460629,verilog,,C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/sim/tb/tb_udp.v,,udp_tx,,,,,,,,
+C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/sim/tb/tb_udp.v,1688364227,verilog,,,,tb_udp,,,,,,,,

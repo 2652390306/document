@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../eth_udp_loop.gen/sources_1/ip/clk_wiz_0" \
+"../../../../eth_udp_loop.gen/sources_1/ip/sync_fifo_2048x8b/sim/sync_fifo_2048x8b.v" \
+"../../../../eth_udp_loop.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../eth_udp_loop.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../../rtl/arp/arp.v" \
+"../../../../../rtl/arp/arp_rx.v" \
+"../../../../../rtl/arp/arp_tx.v" \
+"../../../../../rtl/arp/crc32_d8.v" \
+"../../../../../rtl/eth_ctrl.v" \
+"../../../../../rtl/gmii_to_rgmii/gmii_to_rgmii.v" \
+"../../../../../rtl/icmp/icmp.v" \
+"../../../../../rtl/icmp/icmp_rx.v" \
+"../../../../../rtl/icmp/icmp_tx.v" \
+"../../../../../rtl/gmii_to_rgmii/rgmii_rx.v" \
+"../../../../../rtl/gmii_to_rgmii/rgmii_tx.v" \
+"../../../../../rtl/udp/udp.v" \
+"../../../../../rtl/udp/udp_rx.v" \
+"../../../../../rtl/udp/udp_tx.v" \
+"../../../../../rtl/eth_udp_loop.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

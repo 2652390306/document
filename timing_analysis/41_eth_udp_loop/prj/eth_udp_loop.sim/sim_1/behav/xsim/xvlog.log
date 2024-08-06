@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/arp/crc32_d8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crc32_d8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/sim/tb/tb_udp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_udp
+WARNING: [VRFC 10-8361] illegal leading underscore character in based number '_00_11_22_33' [C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/sim/tb/tb_udp.v:85]
+WARNING: [VRFC 10-8361] illegal leading underscore character in based number '_00_11_22_33' [C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/sim/tb/tb_udp.v:109]
+WARNING: [VRFC 10-8361] illegal leading underscore character in based number '_00_11_22_33' [C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/sim/tb/tb_udp.v:131]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/prj/eth_udp_loop.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

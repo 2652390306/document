@@ -1,0 +1,26 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 2d565933a2fe4eceb328928bcfe4e7f0 --incr --debug typical --relax --mt 12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_udp_behav xil_defaultlib.tb_udp xil_defaultlib.glbl -log elaborate.log 
+Using 12 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'tx_data' [C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/sim/tb/tb_udp.v:162]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp.v" Line 23. Module udp(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_rx.v" Line 23. Module udp_rx(BOARD_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_tx.v" Line 23. Module udp_tx(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/arp/crc32_d8.v" Line 22. Module crc32_d8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp.v" Line 23. Module udp(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_rx.v" Line 23. Module udp_rx(BOARD_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/udp/udp_tx.v" Line 23. Module udp_tx(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Admin/Desktop/wang/7010/28_eth_udp_loop/rtl/arp/crc32_d8.v" Line 22. Module crc32_d8 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.udp_rx(BOARD_IP=32'b110000001010...
+Compiling module xil_defaultlib.udp_tx(BOARD_IP=32'b110000001010...
+Compiling module xil_defaultlib.crc32_d8
+Compiling module xil_defaultlib.udp(BOARD_IP=32'b110000001010100...
+Compiling module xil_defaultlib.tb_udp
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_udp_behav
